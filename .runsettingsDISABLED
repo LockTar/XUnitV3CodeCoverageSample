@@ -11,8 +11,8 @@
                             <!--Do not exclude the test projects themselves otherwise no coverage will be collected-->
                             <Exclude>
                                 <ModulePath>.*CPPUnitTestFramework.*</ModulePath>
-                                <!--<ModulePath>Tests.dll</ModulePath>
-                                <ModulePath>Tests2.dll</ModulePath>-->
+                                <ModulePath>Tests.dll</ModulePath>
+                                <ModulePath>Tests2.dll</ModulePath>
                             </Exclude>
                         </ModulePaths>
 
@@ -25,44 +25,6 @@
                     </CodeCoverage>
                 </Configuration>
             </DataCollector>
-
-            <DataCollector friendlyName="Code Coverage" enabled="True">
-                <Configuration>
-                    <CodeCoverage>
-                        <ModulePaths>
-                            <Exclude></Exclude>
-                            <Include></Include>
-                        </ModulePaths>
-                        <Functions>
-                            <Exclude></Exclude>
-                            <Include></Include>
-                        </Functions>
-                        <Attributes>
-                            <Exclude></Exclude>
-                            <Include></Include>
-                        </Attributes>
-                        <Sources>
-                            <Exclude></Exclude>
-                            <Include></Include>
-                        </Sources>
-                        <CompanyNames>
-                            <Exclude></Exclude>
-                            <Include></Include>
-                        </CompanyNames>
-                        <PublicKeyTokens>
-                            <Exclude></Exclude>
-                            <Include></Include>
-                        </PublicKeyTokens>
-                        <UseVerifiableInstrumentation>True</UseVerifiableInstrumentation>
-                        <AllowLowIntegrityProcesses>True</AllowLowIntegrityProcesses>
-                        <CollectFromChildProcesses>True</CollectFromChildProcesses>
-                        <CollectAspDotNet>False</CollectAspDotNet>
-                    </CodeCoverage>
-                    <Format>Cobertura</Format>
-                    <FCCGenerated />
-                </Configuration>
-            </DataCollector>
-
         </DataCollectors>
     </DataCollectionRunSettings>
 
