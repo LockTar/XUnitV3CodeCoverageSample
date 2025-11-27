@@ -11,6 +11,8 @@
                             <!--Do not exclude the test projects themselves otherwise no coverage will be collected-->
                             <Exclude>
                                 <ModulePath>.*CPPUnitTestFramework.*</ModulePath>
+
+                                <ModulePath>Project1.dll</ModulePath>
                                 <ModulePath>Tests.dll</ModulePath>
                                 <ModulePath>Tests2.dll</ModulePath>
                             </Exclude>
