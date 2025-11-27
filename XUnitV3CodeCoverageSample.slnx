@@ -1,0 +1,15 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".runsettings" />
+  </Folder>
+  <Project Path="ClassLibrary/ClassLibrary.csproj" />
+  <Project Path="ClassLibrary2/ClassLibrary2.csproj" />
+  <Project Path="Project1/Project1.csproj" />
+  <Project Path="Tests/Tests.csproj" />
+  <Project Path="Tests2/Tests2.csproj" />
+</Solution>
