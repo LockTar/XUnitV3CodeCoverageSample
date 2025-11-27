@@ -18,6 +18,15 @@
                             </Exclude>
                         </ModulePaths>
 
+                        <Functions>
+                            <Exclude>
+                                <!--Exclude this namespace because is generated code for OpenApi inside your API project-->
+                                <Function>^Microsoft.AspNetCore.OpenApi.Generated*</Function>
+
+                                <!--Exclude other namespaces from your project here-->
+                            </Exclude>
+                        </Functions>
+
                         <!-- We recommend you do not change the following values: -->
                         <UseVerifiableInstrumentation>True</UseVerifiableInstrumentation>
                         <AllowLowIntegrityProcesses>True</AllowLowIntegrityProcesses>
